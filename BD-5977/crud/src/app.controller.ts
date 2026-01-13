@@ -17,7 +17,7 @@ export class AppController {
 
    @Get('/get')
   getUsers(){
-     console.log("data")
+     console.log("we need to get data man")
       return this.Users1.getUsers()
   }
 
@@ -40,4 +40,5 @@ export class AppController {
 
   }
 }
+
 
