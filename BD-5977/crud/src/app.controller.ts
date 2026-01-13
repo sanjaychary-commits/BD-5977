@@ -17,6 +17,7 @@ export class AppController {
 
    @Get('/get')
   getUsers(){
+     console.log("data")
       return this.Users1.getUsers()
   }
 
@@ -39,3 +40,4 @@ export class AppController {
 
   }
 }
+
