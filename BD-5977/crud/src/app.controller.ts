@@ -11,7 +11,7 @@ export class AppController {
 
   @Post('/create')
   addUser(@Body() body1:CreateUserDto){
-    console.log("add 122")
+    console.log("add ")
     return this.Users1.addUser(body1)
    
   }
@@ -42,6 +42,7 @@ export class AppController {
 
   }
 }
+
 
 
 
