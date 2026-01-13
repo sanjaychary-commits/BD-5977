@@ -17,7 +17,7 @@ export class AppController {
 
    @Get('/get')
   getUsers(){
-     console.log("we need to get data man")
+     console.log("we need to get")
       return this.Users1.getUsers()
   }
 
@@ -35,10 +35,12 @@ export class AppController {
 
   @Delete('/:id')
   DeleteMan(@Param('id') id:number){
+    
     return this.Users1.deleteUser(id)
      
 
   }
 }
+
 
 
